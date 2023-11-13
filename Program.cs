@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Test");
+            Console.WriteLine("Hei, hva heter du?");
+            var userInput = Console.ReadLine();
+            Console.WriteLine($"Velkommen {userInput}!");
+        
         }
     }
 }
